@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { TemplateMethodClient } from '../designPattern/TempleteMethod/Client';
 
-const TemplateMethod: React.FC = () => {
+const TemplateMethodPattern: React.FC = () => {
     const decorator = new TemplateMethodClient();
     decorator.main();
     return (
@@ -12,4 +12,4 @@ const TemplateMethod: React.FC = () => {
     )
 }
 
-export {TemplateMethod};
+export {TemplateMethodPattern};

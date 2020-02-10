@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { DecoratorClient } from '../designPattern/decorator/Client';
 
-const Decorator: React.FC = () => {
+const DecoratorPattern: React.FC = () => {
     const decorator = new DecoratorClient();
     decorator.main();
     return (
@@ -12,4 +12,4 @@ const Decorator: React.FC = () => {
     )
 }
 
-export {Decorator};
+export {DecoratorPattern};
